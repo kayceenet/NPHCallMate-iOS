@@ -20,5 +20,5 @@ jobs:
       - name: Install Dependencies
         run: flutter pub get
 
-      - name: Build iOS App Bundle / Simulator Build
-        run: flutter build ios --no-pub --simulator
+      - name: Analyze Project Code
+        run: flutter analyze
